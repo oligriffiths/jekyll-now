@@ -1,0 +1,24 @@
+{
+  "name": "illusion",
+  "authors": [
+    "Timble CVBA <info@timble.net>"
+  ],
+  "description": "A thing that is or is likely to be wrongly perceived or interpreted by the senses.",
+  "devDependencies": {
+    "apollo": "toddmotto/apollo#1.7.0"
+  },
+  "ignore": [
+    ".gitignore"
+  ],
+  "homepage": "https://github.com/timble/illusion",
+  "version": "3.0.0",
+  "_release": "3.0.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v3.0.0",
+    "commit": "117de2c5211c2cdfff7c75480c46e3cd8ed49171"
+  },
+  "_source": "git://github.com/timble/illusion.git",
+  "_target": "3.0.0",
+  "_originalSource": "timble/illusion"
+}

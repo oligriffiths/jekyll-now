@@ -1,0 +1,112 @@
+.events_container {
+  @include clearfix;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  max-width: 1200px;
+
+  .events {
+    @include clearfix;
+  }
+}
+
+.event {
+  background: white;
+  position: relative;
+  display: block;
+  vertical-align: top;
+  margin-bottom: $spacing-m;
+  text-align: left;
+  border: 1px solid $color-grey-dark;
+  border-radius: 0 0 10px 10px;
+  transition: all .2s ease-in-out;
+
+  @media screen and (min-width: 768px) {
+    display: inline-block;
+    max-width: 525px;
+  }
+
+  .event__header {
+    display: table;
+    width: 100%;
+  }
+
+  .event__title, .event__date {
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  .event__title {
+    background: $color-grey-light;
+    border: 1px solid white;
+  }
+
+  h1 {
+    font-size: 1.5em;
+    line-height: 1.25em;
+    margin: 0;
+    min-height: 80px;
+    padding: 1em;
+    color: $brand-primary;
+  }
+
+  .event__content {
+    padding: 1em;
+  }
+
+  .event__image {
+    width: 100%;
+    height: 150px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    border-top: 1px solid $color-grey-dark;
+    border-bottom: 1px solid $color-grey-dark;
+    position: relative;
+
+    &:before {
+      display: block;
+      content: " ";
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      border: 1px solid white;
+    }
+  }
+
+  .event__date {
+    background: white;
+    border-left: 1px solid $color-grey-dark;
+    width: 70px;
+    height: 70px;
+    vertical-align: top;
+    padding: 0;
+
+    .event__date__year,
+    .event__date__month {
+      background: $brand-primary;
+      color: white;
+      font-size: 12px;
+      padding: 0 5px;
+      line-height: 22px;
+      border: 1px solid white;
+    }
+
+    .event__date__year {
+      float: right;
+      margin: 1px 1px 0 0;
+      border: none;
+    }
+
+    .event__date__day {
+      font-size: 30px;
+      color: $color-body;
+      font-weight: bold;
+      text-align: center;
+      line-height: 40px;
+    }
+  }
+}

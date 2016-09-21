@@ -1,0 +1,31 @@
+.services {
+  text-align: center;
+
+  .one-third,
+  .one-half {
+    margin-bottom: $spacing-m;
+  }
+}
+
+.network__contact {
+  margin-bottom: $spacing-m;
+}
+
+@include breakpoint($alpha, range, $charlie) {
+  .services {
+    text-align: left;
+
+    .one-third,
+    .one-half {
+      margin-bottom: $spacing-l;
+    }
+  }
+
+  .service__icon {
+    float: left;
+  }
+
+  .service__content {
+    margin-left: 100px;
+  }
+}

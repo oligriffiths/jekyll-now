@@ -1,0 +1,42 @@
+.footer {
+  background: white;
+  text-align: left;
+  padding-left: $spacing-s;
+  padding-right: $spacing-s;
+
+  .container {
+    padding: 0;
+
+    .group {
+      padding: 1em 0;
+      color: $navy;
+      border-top: 1px solid $color-grey;
+    }
+
+    .copyright {
+      margin-top: 10px;
+    }
+
+    a {
+      color: $navy;
+    }
+  }
+}
+
+.links {
+  padding-bottom: $spacing-s;
+
+  @include breakpoint($charlie) {
+    padding-bottom: 0;
+  }
+}
+
+.links a {
+  margin-right: $spacing-s;
+}
+
+.heart {
+  font-family: Helvetica, Arial, sans-serif;
+  color: #EA4437;
+  font-size: 1.125em;
+}

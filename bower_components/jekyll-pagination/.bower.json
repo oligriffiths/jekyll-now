@@ -1,0 +1,14 @@
+{
+  "name": "jekyll-pagination",
+  "homepage": "https://github.com/timble/jekyll-pagination",
+  "version": "1.0.1",
+  "_release": "1.0.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "v1.0.1",
+    "commit": "f91c4d6e4c30e376816630acd687a5ae3503715f"
+  },
+  "_source": "git://github.com/timble/jekyll-pagination.git",
+  "_target": "1.0.1",
+  "_originalSource": "timble/jekyll-pagination"
+}

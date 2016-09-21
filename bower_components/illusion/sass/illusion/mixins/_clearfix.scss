@@ -1,0 +1,17 @@
+/**
+ * mixin you can extend on for clearfixing elements
+ *
+ * @group Mixins
+ */
+@mixin clearfix {
+  &:before,
+  &:after {
+    display: table;
+    content: " ";
+    line-height: 0;
+  }
+
+  &:after {
+    clear: both;
+  }
+}

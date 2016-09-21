@@ -1,0 +1,15 @@
+{
+  "name": "joomla spark",
+  "description": "",
+  "homepage": "",
+  "keywords": [],
+  "author": "",
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "stack": "timble/stack#1.0.0",
+    "neat": "1.7.2",
+    "illusion": "timble/illusion#3.0.0",
+    "jekyll-pagination": "timble/jekyll-pagination#1.0.1"
+  }
+}
